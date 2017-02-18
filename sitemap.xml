@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://glitchshop.com/blog/static/hugo-bootstrap-vanilla-theme/</loc>
+    <lastmod>2017-12-02T23:18:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://glitchshop.com/projects/under-the-sea-live-wallpaper/</loc>
+    <lastmod>2016-12-01T20:12:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://glitchshop.com/</loc>
+    <lastmod>2016-10-18T21:01:57+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://glitchshop.com/blog/</loc>
+    <lastmod>2017-12-02T23:18:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://glitchshop.com/tags/bootstrap/</loc>
+    <lastmod>2017-12-02T23:18:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://glitchshop.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://glitchshop.com/</loc>
+    <lastmod>2017-12-02T23:18:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://glitchshop.com/tags/hugo/</loc>
+    <lastmod>2017-12-02T23:18:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://glitchshop.com/projects/</loc>
+    <lastmod>2016-12-01T20:12:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://glitchshop.com/categories/static-website/</loc>
+    <lastmod>2017-12-02T23:18:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://glitchshop.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

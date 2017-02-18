@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Glitchshop</title>
+    <link>http://glitchshop.com/index.xml</link>
+    <description>Recent content on Glitchshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016-2017 Bostjan Osenar. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 02 Dec 2017 23:18:50 +0000</lastBuildDate>
+    <atom:link href="http://glitchshop.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Plain vanilla theme for Hugo</title>
+      <link>http://glitchshop.com/blog/static/hugo-bootstrap-vanilla-theme/</link>
+      <pubDate>Sat, 02 Dec 2017 23:18:50 +0000</pubDate>
+      
+      <guid>http://glitchshop.com/blog/static/hugo-bootstrap-vanilla-theme/</guid>
+      <description>
+
+
+
+
+&lt;figure &gt;
+    
+        &lt;img class=&#34;figure-img img-fluid&#34; src=&#34;http://glitchshop.com/media/content/hugo-bootstrap-minimal-theme-feature.jpg&#34;  /&gt;
+    
+    
+    &lt;figcaption class=&#34;figure-caption text-xs-right&#34;&gt;
+        &lt;strong&gt;Glitchshop Minimal Theme for Hugo&lt;/strong&gt;
+        
+
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;If you are creating a website, chances are that you are at least considering building it using static site generator such as &lt;a href=&#34;http://gohugo.io&#34; title=&#34;Hugo&#34;&gt;Hugo&lt;/a&gt;. There are plenty themes ready available for Hugo, but if you are creating one from scratch then &lt;a href=&#34;https://v4-alpha.getbootstrap.com/&#34; title=&#34;Bootstrap v4 beta&#34;&gt;Bootstrap&lt;/a&gt; is an obvious choice. Anyway, &lt;a href=&#34;https://github.com/BostjanOsenar/glitchshop-minimal-theme-hugo&#34; title=&#34;Glitchshop Minimal Theme for Hugo&#34;&gt;Glitchshop Minimal Theme&lt;/a&gt; theme will give you a leg up.&lt;/p&gt;
+
+&lt;p&gt;It is designed to use externally hosted CSS and Javascript libraries and minimal custom CSS to add formatting touches where needed while providing basic blog functionality.&lt;/p&gt;
+
+&lt;p&gt;This blog is powered by &lt;a href=&#34;http://gohugo.io&#34; title=&#34;Hugo&#34;&gt;Hugo&lt;/a&gt; and uses &lt;a href=&#34;https://github.com/BostjanOsenar/glitchshop-minimal-theme-hugo&#34; title=&#34;Glitchshop Minimal Theme for Hugo&#34;&gt;Glitchshop Minimal Theme&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://v4-alpha.getbootstrap.com/&#34;&gt;Bootstrap v4 alpha&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/BostjanOsenar/glitchshop-minimal-theme-hugo&#34;&gt;Glitchshop Minimal Theme for Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;configuration-details&#34;&gt;Configuration details&lt;/h2&gt;
+
+&lt;p&gt;Below is an example of TOML front matter that includes description, categories and tags used with this theme:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;+++
+date = &amp;quot;2017-12-02T23:18:50Z&amp;quot;
+draft = false
+title = &amp;quot;Plain vanilla theme for Hugo&amp;quot;
+description = &amp;quot;A simple starter theme for Hugo made with Bootstrap 4 alpha 6&amp;quot;
+author = &amp;quot;Bostjan&amp;quot;
+categories = [ &amp;quot;Static Website&amp;quot;]
+tags = [ &amp;quot;Hugo&amp;quot;, &amp;quot;Bootstrap&amp;quot; ]
+featured = &amp;quot;/media/content/hugo-bootstrap-minimal-theme-feature.jpg&amp;quot;
++++
+
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A sample configuration file (&lt;em&gt;config.toml&lt;/em&gt;):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;languageCode = &amp;quot;en-us&amp;quot;
+baseurl = &amp;quot;http://glitchshop.com/&amp;quot;
+theme = &amp;quot;glitchshop-minimal-theme&amp;quot;
+title = &amp;quot;Glitchshop&amp;quot;
+copyright = &amp;quot;Copyright © 2016-2017 Bostjan Osenar. All rights reserved.&amp;quot;
+pluralizeListTitles = false
+paginate = 18
+
+[permalinks]
+  post = &amp;quot;/:year/:month/:title/&amp;quot;
+
+SectionPagesMenu = &amp;quot;main&amp;quot;
+[[menu.main]]
+  name = &amp;quot;Home&amp;quot;
+  identifier = &amp;quot;home&amp;quot;
+  url = &amp;quot;/&amp;quot;
+  weight = 0
+[[menu.main]]
+  name = &amp;quot;Projects&amp;quot;
+  identifier = &amp;quot;projects&amp;quot;
+  url = &amp;quot;/projects/&amp;quot;
+  weight = 1
+[[menu.main]]
+  name = &amp;quot;Blog&amp;quot;
+  identifier = &amp;quot;blog&amp;quot;
+  url = &amp;quot;/blog/&amp;quot;
+  weight = 2
+
+[params]
+  logo = &amp;quot;media/branding/glitchshop-white-lg.png&amp;quot;
+[params.home]
+  postsSection = &amp;quot;blog&amp;quot;
+  postsSectionLink = &amp;quot;/blog/&amp;quot;
+  projectsSection = &amp;quot;projects&amp;quot;
+[params.social]
+  linkedin = &amp;quot;https://www.linkedin.com/in/bosenar&amp;quot;
+  github = &amp;quot;https://github.com/BostjanOsenar&amp;quot;
+
+[taxonomies]
+  category = &amp;quot;categories&amp;quot;
+  tag = &amp;quot;tags&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Under the Sea Live Wallpaper</title>
+      <link>http://glitchshop.com/projects/under-the-sea-live-wallpaper/</link>
+      <pubDate>Thu, 01 Dec 2016 20:12:28 +0000</pubDate>
+      
+      <guid>http://glitchshop.com/projects/under-the-sea-live-wallpaper/</guid>
+      <description>
+
+
+&lt;figure &gt;
+    
+        &lt;img class=&#34;figure-img img-fluid&#34; src=&#34;http://glitchshop.com/media/projects/under-the-sea-live-wallpaper.jpg&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;A live wallpaper for Android devices that is ending its 4th year on Google Play with more than 1.7 million downloads and an average score of 4.0. The project took roughly six months to complete and was first published on Google Play in late 2012.&lt;/p&gt;
+
+&lt;p&gt;Made using OpenGL ES 2.0 in its purest form. Just shaders over very simple geometry. It was optimised for high-end devices availaibe at launch time, devices like  Samsung Galaxy S2.
+Designed and developed in collaboration with Goran Golubovic and published under Aksis Plus.&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;p class=&#34;text-sm-center&#34;&gt;
+    &lt;a href=&#39;https://play.google.com/store/apps/details?id=com.aksisplus.underwaterwallpaper&amp;utm_source=global_co&amp;utm_medium=prtnr&amp;utm_content=Mar2515&amp;utm_campaign=PartBadge&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1&#39;&gt;
+    &lt;img style=&#34;height: auto; width: 240px; margin: 0 auto;&#34; alt=&#39;Get it on Google Play&#39; src=&#39;https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png&#39;/&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p class=&#34;text-sm-center muted&#34;&gt;
+    &lt;small&gt;Google Play and the Google Play logo are trademarks of Google Inc.&lt;/small&gt;
+&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>http://glitchshop.com/</link>
+      <pubDate>Tue, 18 Oct 2016 21:01:57 +0100</pubDate>
+      
+      <guid>http://glitchshop.com/</guid>
+      <description>
+
+&lt;img src=&#34;http://glitchshop.com/media/avatar/bostjan.jpg&#34; alt=&#34;Bostjan Osenar&#34; class=&#34;rounded-circle&#34; style=&#34;height: auto; width: 100px; margin: 0 auto;&#34;&gt;
+
+
+&lt;h2 id=&#34;code-tips-and-video-clips&#34;&gt;Code, tips and video clips&lt;/h2&gt;
+
+&lt;p&gt;Hi, I&amp;rsquo;m Bostjan Osenar and this is my notepad.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Glitchshop</title>
+    <link>http://glitchshop.com/projects/index.xml</link>
+    <description>Recent content in Projects on Glitchshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016-2017 Bostjan Osenar. All rights reserved.</copyright>
+    <lastBuildDate>Thu, 01 Dec 2016 20:12:28 +0000</lastBuildDate>
+    <atom:link href="http://glitchshop.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Under the Sea Live Wallpaper</title>
+      <link>http://glitchshop.com/projects/under-the-sea-live-wallpaper/</link>
+      <pubDate>Thu, 01 Dec 2016 20:12:28 +0000</pubDate>
+      
+      <guid>http://glitchshop.com/projects/under-the-sea-live-wallpaper/</guid>
+      <description>
+
+
+&lt;figure &gt;
+    
+        &lt;img class=&#34;figure-img img-fluid&#34; src=&#34;http://glitchshop.com/media/projects/under-the-sea-live-wallpaper.jpg&#34;  /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;A live wallpaper for Android devices that is ending its 4th year on Google Play with more than 1.7 million downloads and an average score of 4.0. The project took roughly six months to complete and was first published on Google Play in late 2012.&lt;/p&gt;
+
+&lt;p&gt;Made using OpenGL ES 2.0 in its purest form. Just shaders over very simple geometry. It was optimised for high-end devices availaibe at launch time, devices like  Samsung Galaxy S2.
+Designed and developed in collaboration with Goran Golubovic and published under Aksis Plus.&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;p class=&#34;text-sm-center&#34;&gt;
+    &lt;a href=&#39;https://play.google.com/store/apps/details?id=com.aksisplus.underwaterwallpaper&amp;utm_source=global_co&amp;utm_medium=prtnr&amp;utm_content=Mar2515&amp;utm_campaign=PartBadge&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1&#39;&gt;
+    &lt;img style=&#34;height: auto; width: 240px; margin: 0 auto;&#34; alt=&#39;Get it on Google Play&#39; src=&#39;https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png&#39;/&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p class=&#34;text-sm-center muted&#34;&gt;
+    &lt;small&gt;Google Play and the Google Play logo are trademarks of Google Inc.&lt;/small&gt;
+&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

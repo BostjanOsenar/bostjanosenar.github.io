@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Static Website on Glitchshop</title>
+    <link>http://glitchshop.com/categories/static-website/index.xml</link>
+    <description>Recent content in Static Website on Glitchshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2016-2017 Bostjan Osenar. All rights reserved.</copyright>
+    <atom:link href="http://glitchshop.com/categories/static-website/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Plain vanilla theme for Hugo</title>
+      <link>http://glitchshop.com/blog/static/hugo-bootstrap-vanilla-theme/</link>
+      <pubDate>Sat, 02 Dec 2017 23:18:50 +0000</pubDate>
+      
+      <guid>http://glitchshop.com/blog/static/hugo-bootstrap-vanilla-theme/</guid>
+      <description>
+
+
+
+
+&lt;figure &gt;
+    
+        &lt;img class=&#34;figure-img img-fluid&#34; src=&#34;http://glitchshop.com/media/content/hugo-bootstrap-minimal-theme-feature.jpg&#34;  /&gt;
+    
+    
+    &lt;figcaption class=&#34;figure-caption text-xs-right&#34;&gt;
+        &lt;strong&gt;Glitchshop Minimal Theme for Hugo&lt;/strong&gt;
+        
+
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;If you are creating a website, chances are that you are at least considering building it using static site generator such as &lt;a href=&#34;http://gohugo.io&#34; title=&#34;Hugo&#34;&gt;Hugo&lt;/a&gt;. There are plenty themes ready available for Hugo, but if you are creating one from scratch then &lt;a href=&#34;https://v4-alpha.getbootstrap.com/&#34; title=&#34;Bootstrap v4 beta&#34;&gt;Bootstrap&lt;/a&gt; is an obvious choice. Anyway, &lt;a href=&#34;https://github.com/BostjanOsenar/glitchshop-minimal-theme-hugo&#34; title=&#34;Glitchshop Minimal Theme for Hugo&#34;&gt;Glitchshop Minimal Theme&lt;/a&gt; theme will give you a leg up.&lt;/p&gt;
+
+&lt;p&gt;It is designed to use externally hosted CSS and Javascript libraries and minimal custom CSS to add formatting touches where needed while providing basic blog functionality.&lt;/p&gt;
+
+&lt;p&gt;This blog is powered by &lt;a href=&#34;http://gohugo.io&#34; title=&#34;Hugo&#34;&gt;Hugo&lt;/a&gt; and uses &lt;a href=&#34;https://github.com/BostjanOsenar/glitchshop-minimal-theme-hugo&#34; title=&#34;Glitchshop Minimal Theme for Hugo&#34;&gt;Glitchshop Minimal Theme&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://v4-alpha.getbootstrap.com/&#34;&gt;Bootstrap v4 alpha&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/BostjanOsenar/glitchshop-minimal-theme-hugo&#34;&gt;Glitchshop Minimal Theme for Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;configuration-details&#34;&gt;Configuration details&lt;/h2&gt;
+
+&lt;p&gt;Below is an example of TOML front matter that includes description, categories and tags used with this theme:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;+++
+date = &amp;quot;2017-12-02T23:18:50Z&amp;quot;
+draft = false
+title = &amp;quot;Plain vanilla theme for Hugo&amp;quot;
+description = &amp;quot;A simple starter theme for Hugo made with Bootstrap 4 alpha 6&amp;quot;
+author = &amp;quot;Bostjan&amp;quot;
+categories = [ &amp;quot;Static Website&amp;quot;]
+tags = [ &amp;quot;Hugo&amp;quot;, &amp;quot;Bootstrap&amp;quot; ]
+featured = &amp;quot;/media/content/hugo-bootstrap-minimal-theme-feature.jpg&amp;quot;
++++
+
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A sample configuration file (&lt;em&gt;config.toml&lt;/em&gt;):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;languageCode = &amp;quot;en-us&amp;quot;
+baseurl = &amp;quot;http://glitchshop.com/&amp;quot;
+theme = &amp;quot;glitchshop-minimal-theme&amp;quot;
+title = &amp;quot;Glitchshop&amp;quot;
+copyright = &amp;quot;Copyright © 2016-2017 Bostjan Osenar. All rights reserved.&amp;quot;
+pluralizeListTitles = false
+paginate = 18
+
+[permalinks]
+  post = &amp;quot;/:year/:month/:title/&amp;quot;
+
+SectionPagesMenu = &amp;quot;main&amp;quot;
+[[menu.main]]
+  name = &amp;quot;Home&amp;quot;
+  identifier = &amp;quot;home&amp;quot;
+  url = &amp;quot;/&amp;quot;
+  weight = 0
+[[menu.main]]
+  name = &amp;quot;Projects&amp;quot;
+  identifier = &amp;quot;projects&amp;quot;
+  url = &amp;quot;/projects/&amp;quot;
+  weight = 1
+[[menu.main]]
+  name = &amp;quot;Blog&amp;quot;
+  identifier = &amp;quot;blog&amp;quot;
+  url = &amp;quot;/blog/&amp;quot;
+  weight = 2
+
+[params]
+  logo = &amp;quot;media/branding/glitchshop-white-lg.png&amp;quot;
+[params.home]
+  postsSection = &amp;quot;blog&amp;quot;
+  postsSectionLink = &amp;quot;/blog/&amp;quot;
+  projectsSection = &amp;quot;projects&amp;quot;
+[params.social]
+  linkedin = &amp;quot;https://www.linkedin.com/in/bosenar&amp;quot;
+  github = &amp;quot;https://github.com/BostjanOsenar&amp;quot;
+
+[taxonomies]
+  category = &amp;quot;categories&amp;quot;
+  tag = &amp;quot;tags&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

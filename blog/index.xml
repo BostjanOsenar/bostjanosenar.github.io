@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Glitchshop</title>
-    <link>http://glitchshop.com/blog/index.xml</link>
+    <link>https://bostjanosenar.github.io/blog/index.xml</link>
     <description>Recent content in Blog on Glitchshop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2016-2017 Bostjan Osenar. All rights reserved.</copyright>
     <lastBuildDate>Sat, 02 Dec 2017 23:18:50 +0000</lastBuildDate>
-    <atom:link href="http://glitchshop.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bostjanosenar.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Plain vanilla theme for Hugo</title>
-      <link>http://glitchshop.com/blog/static/hugo-bootstrap-vanilla-theme/</link>
+      <link>https://bostjanosenar.github.io/blog/static/hugo-bootstrap-vanilla-theme/</link>
       <pubDate>Sat, 02 Dec 2017 23:18:50 +0000</pubDate>
       
-      <guid>http://glitchshop.com/blog/static/hugo-bootstrap-vanilla-theme/</guid>
+      <guid>https://bostjanosenar.github.io/blog/static/hugo-bootstrap-vanilla-theme/</guid>
       <description>
 
 
@@ -23,7 +23,7 @@
 
 &lt;figure &gt;
     
-        &lt;img class=&#34;figure-img img-fluid&#34; src=&#34;http://glitchshop.com/media/content/hugo-bootstrap-minimal-theme-feature.jpg&#34;  /&gt;
+        &lt;img class=&#34;figure-img img-fluid&#34; src=&#34;https://bostjanosenar.github.io/media/content/hugo-bootstrap-minimal-theme-feature.jpg&#34;  /&gt;
     
     
     &lt;figcaption class=&#34;figure-caption text-xs-right&#34;&gt;
